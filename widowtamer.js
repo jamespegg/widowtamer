@@ -68,7 +68,7 @@ wt = {
 			
 				var t = eles[i];
 					
-				if (t.offsetHeight > wt.getstyle(t, 'line-height', true)) { 
+				if (t.offsetHeight > (wt.getstyle(t, 'line-height', true) * 1.5)) { 
 					
 					// find a textnode longer than chars
 					var nodes = t.childNodes,
